@@ -31,3 +31,6 @@ let port = 1234;
 app.listen(port, () => {
     console.log('Server is up and running on port ' +  port);
 });
+
+// tutorial from https://codeburst.io/writing-a-crud-app-with-node-js-and-mongodb-e0827cbbdafb
+// fixing deprecate problems in using mongoose https://github.com/Automattic/mongoose/issues/8156
